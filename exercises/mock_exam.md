@@ -122,7 +122,7 @@ Residual standard error: 8.5 on 33 degrees of freedom
 
 An analyst wants to predict whether a website visitor will make a purchase (Y = 1) or not (Y = 0) based on their session duration and number of pages visited.
 
-**a)** Explain why logistic regression is more appropriate than linear regression when the outcome is binary. You may discuss why the logistic function $ \sigma(z) = \frac{1}{1 + e^{-z}}$ is used. **(5 points)**
+**a)** Explain why logistic regression is more appropriate than linear regression when the outcome is binary. You may discuss why the logistic function $\sigma(z) = \frac{1}{1 + e^{-z}}$ is used. **(5 points)**
 
 **b)** Logistic regression does not have a closed-form solution for the maximum likelihood estimators. Explain how gradient descent can be used to find the MLE. **(5 points)**
 

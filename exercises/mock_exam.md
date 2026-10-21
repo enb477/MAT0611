@@ -129,7 +129,7 @@ An analyst wants to predict whether a website visitor will make a purchase (Y = 
 **c)** The Gradiet Descent method can be used to find the MLE in logistic regression using the following update formula:
 $$\boldsymbol{\beta}^{(k+1)} = \boldsymbol{\beta}^{(k)} - \alpha(\hat{
 \boldsymbol{y}}-\boldsymbol{y})\boldsymbol{x}$$
-Identify the gradient and the Hessian in the formula, explain how it works and mention one advantage of Newton-Raphson over simple gradient descent for logistic regression. **(10 points)**
+Identify the gradient and the learning rate in the formula, explain how it works and mention one disadvantage of simple gradient descent for logistic regression involving the "length" or "size" of the gradient during training. **(10 points)**
 
 ---
 

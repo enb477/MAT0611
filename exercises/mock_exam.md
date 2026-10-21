@@ -114,7 +114,7 @@ Residual standard error: 8.5 on 33 degrees of freedom
 
 **c)** Calculate a 95% confidence interval for the intercept $\beta_0$ using the  standard error and the critical value provided. **(5 points)**
 
-**d)** Suppose the analyst adds more predictors and the model starts to overfit. Explain how ridge regression can be used to address overfitting, and how the formula for the classic OLS estimator $ \hat{\boldsymbol{\beta}}_{\text{OLS}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y} $ is modified in ridge regression. **(5 points)**
+**d)** Suppose the analyst adds more predictors and the model starts to overfit. Explain how ridge regression can be used to address overfitting, and how the formula for the classic OLS estimator $\hat{\boldsymbol{\beta}}_{\text{OLS}} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{Y}$ is modified in ridge regression. **(5 points)**
 
 ---
 

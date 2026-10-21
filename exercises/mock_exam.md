@@ -126,8 +126,9 @@ An analyst wants to predict whether a website visitor will make a purchase (Y = 
 
 **b)** Logistic regression does not have a closed-form solution for the maximum likelihood estimators. Explain how gradient descent can be used to find the MLE. **(5 points)**
 
-**c)** The Newton-Raphson method is commonly used to find the MLE in logistic regression using the following update formula:
-$$\boldsymbol{\beta}^{(k+1)} = \boldsymbol{\beta}^{(k)} + (\mathbf{X}^T\mathbf{W}\mathbf{X})^{-1}\mathbf{X}^T(\mathbf{y} - \mathbf{p})$$
+**c)** The Gradiet Descent method can be used to find the MLE in logistic regression using the following update formula:
+$$\boldsymbol{\beta}^{(k+1)} = \boldsymbol{\beta}^{(k)} - \alpha(\hat{
+\boldsymbol{y}}-\boldsymbol{y})\boldsymbol{x}$$
 Identify the gradient and the Hessian in the formula, explain how it works and mention one advantage of Newton-Raphson over simple gradient descent for logistic regression. **(10 points)**
 
 ---

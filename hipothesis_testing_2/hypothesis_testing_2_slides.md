@@ -538,7 +538,7 @@ $$H_1: \text{At least one population differs}$$
 - **Alternative model**: More general model
 
 **Likelihood Ratio**:
-$$\Lambda = \frac{L(\hat{\theta}_0 | \text{data})}{L(\hat{\theta}_1 | \text{data})} = \frac{\max_{\theta \in \Theta_0} L(\theta)}{\max_{\theta \in \Theta} L(\theta)}$$
+$$\Lambda = \frac{L(\hat{\theta}_0 | \text{data})}{L(\hat{\theta}_1 | \text{data})} = \frac{\max_{\theta \in \Theta_0} L(\theta)}{\max_{\theta \in \Theta} L(\theta)$$
 
 - Numerator: maximum likelihood under $H_0$ (restricted)
 - Denominator: maximum likelihood under $H_1$ (unrestricted)
